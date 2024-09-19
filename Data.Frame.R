@@ -1,0 +1,11 @@
+{
+  Uid=c(1,2,3,4,5,NA)
+  Uname=c("Acharya","Reva","Devanandsagra","JAIN","Christ")
+  Strength=c(100,200,300,400,500)
+  result=c(100,99,98,97,96)
+  location=c("North","East","West","SOUTH","Mid")
+  Uni_data=data.frame("ID"=Uid,"Name"=Uname,Strength,result,location)
+  print(Uni_data)
+  str(Uni_data)
+  summary(Uni_data)
+}
